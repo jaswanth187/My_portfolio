@@ -1,0 +1,38 @@
+/* @media only screen and (min-width: 451px) {
+  nav ul li {
+    display: none;
+  }
+  .logo {
+    font-size: 25px;
+  }
+  .dot {
+    margin-bottom: 14px;
+  }
+  .menu-icon {
+    width: 32px;
+    margin-top: 5px;
+  }
+  .user-img {
+    width: 250px;
+    margin-bottom: 350px;
+    margin-right: 38px;
+  }
+  .text-box h1 {
+    font-size: 25px;
+  }
+
+   .text-box {
+    font-size: 10px;
+    margin-top: 30;
+  } 
+  .text-box {
+    font-size: 10px;
+    margin-top: 250px;
+  }
+  .text-box p {
+    font-size: 12px;
+     margin-bottom: 35px; 
+    position: relative;
+    bottom: 30px;
+  }
+}  */
