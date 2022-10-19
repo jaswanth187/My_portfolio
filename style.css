@@ -74,14 +74,14 @@ nav ul li a:hover {
 }
 
 .text-box {
-  margin-top: 12%;
+  margin-top: 10%;
   font-size: 17px;
   letter-spacing: 1px;
   line-height: 26px;
 }
 
 .text-box h1 {
-  font-size: 73px;
+  font-size: 55px;
   line-height: 160px;
 }
 
@@ -105,8 +105,8 @@ nav ul li a:hover {
 .user-img {
   width: 350px;
   position: absolute;
-  right: 5.5%;
-  bottom: 75px;
+  right: 3.1%;
+  bottom: 105px;
   border-radius: 170px;
 }
 
@@ -194,181 +194,3 @@ nav ul li a:hover {
 }
 
 /* Responsive website */
-
-@media only screen and (min-width: 360px) and (max-width: 500px) {
-  .img {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-  }
-  .user-img {
-    /* display: block; */
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 140px;
-    width: 250px;
-    right: 70px;
-    /* margin-bottom: 350px;
-    margin-right: 68px; */
-  }
-
-  nav ul li {
-    display: none;
-  }
-  .logo {
-    font-size: 25px;
-  }
-  .dot {
-    margin-bottom: 14px;
-  }
-  .menu-icon {
-    width: 32px;
-    margin-top: 5px;
-  }
-  .text-box h1 {
-    font-size: 25px;
-  }
-
-  .text-box {
-    font-size: 10px;
-    margin-top: 30;
-  }
-  .text-box {
-    font-size: 10px;
-    margin-top: 250px;
-  }
-  .text-box p {
-    font-size: 12px;
-    margin-bottom: 35px;
-    position: relative;
-    bottom: 30px;
-  }
-}
-
-@media only screen and (min-width: 501px) and (max-width: 699px) {
-  /* .header {
-    background: red;
-  } */
-  .img {
-    /* background: blue; */
-    display: flex;
-    justify-content: center;
-  }
-  .user-img {
-    /* display: none; */
-    width: 300px;
-    position: relative;
-    bottom: 335px;
-    left: 12px;
-  }
-  nav ul {
-    display: none;
-  }
-  .text-box {
-    position: relative;
-    top: 255px;
-  }
-  .text-box h1 {
-    font-size: 35px;
-  }
-}
-@media only screen and (min-width: 700px) and (max-width: 799px) {
-  .logo {
-    font-size: 40px;
-  }
-
-  .user-img {
-    width: 210px;
-    position: absolute;
-    top: 39%;
-    left: 68%;
-  }
-  .text-box h1 {
-    font-size: 36px;
-  }
-  nav ul {
-    display: flex;
-    /* text-align: right; */
-    position: absolute;
-    left: 39%;
-  }
-  nav ul li {
-    margin: 10px 18px;
-  }
-  .text-box p {
-    font-size: 15px;
-    position: relative;
-    bottom: 30px px;
-  }
-
-  .text-box a {
-    position: relative;
-    bottom: 25px;
-  }
-}
-@media only screen and (min-width: 800px) and (max-width: 929px) {
-  .header {
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-  .menu-icon {
-    display: none;
-  }
-  .user-img {
-    width: 260px;
-    right: 1.5%;
-    bottom: 160px;
-  }
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 305px;
-    bottom: 55px;
-  }
-  nav ul li {
-    margin: 10px 20px;
-  }
-  .text-box {
-    position: relative;
-    bottom: 20px;
-  }
-  .text-box p {
-    position: relative;
-    bottom: 30px;
-  }
-  .text-box h1 {
-    font-size: 45px;
-  }
-}
-
-@media only screen and (max-width: 930px) {
-  /* .user-img {
-    display: none;
-  } */
-  /* 
-  .menu-icon {
-    display: block;
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 55px;
-  } */
-
-  /* nav ul {
-    display: flex;
-    flex-direction: column;
-  } */
-}
-
-@media only screen and (min-width: 930px) and (max-width: 1100px) {
-  nav ul {
-    padding-right: 0px;
-    /* padding-left: 20px; */
-    position: relative;
-    left: 5%;
-  }
-
-  /*  */
-}
