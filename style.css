@@ -71,10 +71,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #fff724;
-  transition-delay: 0.2s, 100ms;
-  /* transition-delay: 0.5s ease-out; */
-  /* transition: blue 5s ease-out 100ms; */
+  background: #fff724;
+  transition: 0.5s;
 }
 
 .text-box {
@@ -205,3 +203,8 @@ nav ul li a:hover {
 }
 
 /* Responsive website */
+/* @media only screen and (max-width: 576px) {
+  body {
+    background-color: lightblue;
+  }
+} */
