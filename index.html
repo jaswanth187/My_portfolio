@@ -8,10 +8,18 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
     <div class="header">
       <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
         <h1 class="logo"><a href="/">Jaswanth</a></h1>
         <h2 class="dot">.</h2>
         <!-- <img src="images/logo.png" class="logo" alt="" /> -->
@@ -25,14 +33,14 @@
         <img src="images/menu.png" class="menu-icon" alt="" />
       </nav>
       <div class="text-box">
-        <h1>I'm <span class="auto-input"> </span></h1>
+        <h1 id="head">I'm <span class="auto-input"> </span></h1>
         <p>You can reach out to me if you need any help</p>
         <a href="https://twitter.com/Jaswanth73" target="_blank"
           >Get in Touch</a
         >
         <a href="resume.pdf" class="btn" target="_blank">Download CV </a>
       </div>
-      <div class="img">
+      <div id="img">
         <img src="images/ProfilePic.jpg" class="user-img" />
       </div>
     </div>
@@ -45,5 +53,6 @@
         loop: true,
       });
     </script>
+    <script src="script.js"></script>
   </body>
 </html>

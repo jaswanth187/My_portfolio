@@ -1,0 +1,71 @@
+@media only screen and (max-width: 576px) {
+  .logo {
+    font-size: 2rem;
+  }
+  .dot {
+    position: relative;
+    bottom: 6px;
+  }
+
+  .user-img {
+    left: 5%;
+    bottom: 30rem;
+    width: 18rem;
+  }
+
+  .text-box h1 {
+    font-size: 1rem;
+    position: relative;
+    top: 2.5rem;
+  }
+  .text-box a {
+    font-size: 0.8rem;
+    width: 9rem;
+    padding: 0.625rem 0.8rem;
+  }
+  .text-box {
+    margin-top: 14rem;
+  }
+  .text-box p {
+    font-size: 0.7rem;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    top: 100px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  nav ul li {
+    display: block;
+    margin: 15px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: yellow;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+  #check:checked ~ .user-img {
+    display: none;
+  }
+}
