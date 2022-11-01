@@ -85,8 +85,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: #fff724;
-  transition: 0.5s;
+  color: #fff724;
+  transition: 0.9s;
 }
 
 .text-box {
@@ -111,22 +111,11 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
-.text-box a:hover {
-  background-color: yellow;
-  color: black;
-  font-weight: bold;
-}
-
 .text-box .btn {
   background: #fff724;
   color: #000;
   margin-left: 1.875rem;
   font-weight: 600;
-}
-
-.text-box .btn:hover {
-  background-color: black;
-  color: yellow;
 }
 
 .user-img {
