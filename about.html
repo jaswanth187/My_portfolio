@@ -5,23 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chunduri Jaswanth</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
     <div class="header">
       <nav>
         <h1 class="logo"><a href="/">Jaswanth</a></h1>
         <h2 class="dot">.</h2>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/portfolio.html">Portfolio</a></li>
           <li><a href="">Blog</a></li>
         </ul>
+        <img src="images/menu.png" class="menu-icon" alt="" />
       </nav>
       <div class="about">
         <div class="about-me">
-          <img src="images/works.jpeg" alt="" />
+          <img id="group_pic" src="images/works.jpeg" alt="" />
         </div>
         <div class="about-info">
           <h3 style="color: #fff724">ABOUT ME</h3>
@@ -33,15 +45,10 @@
             Learning and Artificial Intelligence. See my resume for a full list
             of skills.
           </p>
-          <p class="about-p2">
-            <h3 style="color: #fff724">My Skills</h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            atque laborum, minus inventore necessitatibus dignissimos quia
-            corrupti quasi debitis voluptates culpa non dolore voluptatem illo,
-            officiis delectus consequuntur rerum incidunt!
-          </p>
+          <h3 style="color: #fff724">My Skills</h3>
         </div>
       </div>
     </div>
+    <script src="second_script.js"></script>
   </body>
 </html>

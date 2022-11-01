@@ -1,4 +1,5 @@
 @media only screen and (max-width: 576px) {
+  /* Home Section */
   .logo {
     font-size: 2rem;
   }
@@ -32,13 +33,16 @@
 
   .checkbtn {
     display: block;
+    margin-left: auto;
+    margin-right: -1rem;
   }
+
   ul {
     position: fixed;
     width: 100%;
     height: 100vh;
     background: black;
-    top: 100px;
+    top: 120px;
     left: -100%;
     text-align: center;
     transition: all 0.5s;
@@ -55,17 +59,32 @@
   nav ul li a {
     font-size: 20px;
   }
-  a:hover,
-  a.active {
-    background: none;
-    color: yellow;
-  }
-
   #check:checked ~ ul {
     left: 0;
   }
 
   #check:checked ~ .user-img {
     display: none;
+  }
+
+  /* About section */
+
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me img {
+    width: 18rem;
+    height: 18rem;
+    border: 2px solid grey;
+    margin-left: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .about-p2 {
+    margin-bottom: 50px;
+    /* background: red; */
   }
 }

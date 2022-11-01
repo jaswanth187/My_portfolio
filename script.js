@@ -8,10 +8,12 @@ check.addEventListener('click',function(e){
     let user_img = document.getElementById('img')
     console.log('this button is clicked')
     if (user_img.style.display=='none' && head.style.display=='none'){
+        
         user_img.style.display='block'
         head.style.display='block'
     }
     else{
+        
         user_img.style.display='none'
         head.style.display='none'
     }

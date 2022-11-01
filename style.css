@@ -5,14 +5,13 @@
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
 }
-html {
-  overflow: hidden;
+body {
+  background: black;
 }
-
 .header {
   width: 100vw;
   height: 100vh;
-  background: #020412;
+  background: black;
   color: #fff;
   padding: 0 8.5%;
   position: relative;
@@ -22,15 +21,17 @@ html {
 .checkbtn {
   font-size: 30px;
   color: white;
-  float: right;
+  float: left;
   line-height: 80px;
   margin-right: 40px;
   cursor: pointer;
   display: none;
 }
+
 #check {
   display: none;
 }
+
 nav {
   display: flex;
   width: 100%;
@@ -43,6 +44,7 @@ nav {
   font-size: 3.125rem;
   color: #fff724;
 }
+
 .logo {
   cursor: pointer;
   /* text-decoration: none; */
@@ -108,21 +110,25 @@ nav ul li a:hover {
   padding: 0.625rem 1.875rem;
   text-decoration: none;
 }
+
 .text-box a:hover {
   background-color: yellow;
   color: black;
   font-weight: bold;
 }
+
 .text-box .btn {
   background: #fff724;
   color: #000;
   margin-left: 1.875rem;
   font-weight: 600;
 }
+
 .text-box .btn:hover {
   background-color: black;
   color: yellow;
 }
+
 .user-img {
   width: 21.875rem;
   position: relative;
@@ -213,10 +219,3 @@ nav ul li a:hover {
   flex-direction: row;
   justify-content: center;
 }
-
-/* Responsive website */
-/* @media only screen and (max-width: 576px) {
-  body {
-    background-color: lightblue;
-  }
-} */
