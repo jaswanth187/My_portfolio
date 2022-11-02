@@ -153,6 +153,83 @@ nav ul li a:hover {
   margin: 15px 5px;
 }
 
+.skills{
+  width: 500px;
+  margin: 60px 0;
+  color: white;
+}
+
+.skills li{
+  margin: 20px 0;
+  list-style: none;
+}
+
+.bar{
+  background: #353b48;
+  display: block;
+  height: 5px;
+  border: 1px solid rgb(227, 227, 97);
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #ffff1c;
+}
+
+.bar span{
+  height: 5px;
+  float: left;
+  background: yellow;
+}
+
+.html{
+  width: 90%;
+  animation: html 2s;
+}
+.css{
+  width: 70%;
+  animation: css 2s;
+}
+.javascript{
+  width: 60%;
+  animation: javascript 2s;
+}
+.python{
+  width: 90%;
+  animation: python 2s;
+}
+
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+@keyframes javascript{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+@keyframes python{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
 /* Portfolio section */
 
 .port-list {
