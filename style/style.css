@@ -10,7 +10,7 @@ body {
 }
 .header {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   background: black;
   color: #fff;
   padding: 0 8.5%;
@@ -26,6 +26,7 @@ body {
   margin-right: 40px;
   cursor: pointer;
   display: none;
+  z-index: 2;
 }
 
 #check {
@@ -68,6 +69,7 @@ nav ul {
   flex: 1;
   text-align: right;
   padding-right: 2.5rem;
+  z-index: 2;
 }
 
 nav ul li {
@@ -117,13 +119,20 @@ nav ul li a:hover {
   margin-left: 1.875rem;
   font-weight: 600;
 }
-
+.inline{
+  display: flex;
+  flex-direction: row;
+}
 .user-img {
-  width: 21.875rem;
-  position: relative;
-  left: 74%;
-  bottom: 20.625rem;
-  border-radius: 10.625rem;
+  position: fixed;
+    left: 68%;
+    top: 25%;
+    width: 21.875rem;
+    border-radius: 10.625rem;
+}
+.user-img::after{
+  content: '';
+  z-index: 1;
 }
 
 /* About section */
@@ -140,10 +149,12 @@ nav ul li a:hover {
   position: relative;
   top: 2px;
   border-radius: 15px;
+  border: 2px solid white;
 }
 
 .about-info {
   margin-left: 20px;
+  margin-top: 5px;
 }
 
 .about-p1 {
@@ -153,79 +164,80 @@ nav ul li a:hover {
   margin: 15px 5px;
 }
 
-.skills{
-  width: 500px;
-  margin: 60px 0;
+.skills {
+  /* width: 500px; */
+  margin: 40px 0;
   color: white;
 }
 
-.skills li{
-  margin: 20px 0;
+.skills li {
+  margin: 15px 0;
   list-style: none;
 }
 
-.bar{
+.bar {
   background: #353b48;
   display: block;
   height: 5px;
+  width: 31rem;
   border: 1px solid rgb(227, 227, 97);
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 0 10px #ffff1c;
 }
 
-.bar span{
+.bar span {
   height: 5px;
   float: left;
   background: yellow;
 }
 
-.html{
+.html {
   width: 90%;
   animation: html 2s;
 }
-.css{
+.css {
   width: 70%;
   animation: css 2s;
 }
-.javascript{
+.javascript {
   width: 60%;
   animation: javascript 2s;
 }
-.python{
+.python {
   width: 90%;
   animation: python 2s;
 }
 
-@keyframes html{
-  0%{
+@keyframes html {
+  0% {
     width: 0%;
   }
-  100%{
+  100% {
     width: 90%;
   }
 }
-@keyframes css{
-  0%{
+@keyframes css {
+  0% {
     width: 0%;
   }
-  100%{
+  100% {
     width: 70%;
   }
 }
-@keyframes javascript{
-  0%{
+@keyframes javascript {
+  0% {
     width: 0%;
   }
-  100%{
+  100% {
     width: 60%;
   }
 }
-@keyframes python{
-  0%{
+@keyframes python {
+  0% {
     width: 0%;
   }
-  100%{
+  100% {
     width: 90%;
   }
 }
@@ -233,25 +245,18 @@ nav ul li a:hover {
 /* Portfolio section */
 
 .port-list {
-  margin: 30px;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: row;
 }
 .port-list-heading {
   color: #fff724;
+  margin-left: 1.6rem;
+  margin-top: 2rem;
 }
-/* 
-.port-trad img{
-    width: 400px;
-    height: 250px;
-} 
-#port-desk-assist {
-    background: #fff;
-    width: 470px;
-    height: 330px;
-    /* margin: 30px; */
-
-/* .port-list{
-    display: flex; */
-
+.card-body p {
+  margin-top: 6px;
+}
 .port {
   background-color: #fff;
   height: 320px;

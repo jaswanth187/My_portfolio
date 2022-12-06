@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chunduri Jaswanth</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="style\style.css" />
+    <link rel="stylesheet" href="style\responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -19,7 +19,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body style="background: black">
     <div class="header">
       <nav>
         <h1 class="logo"><a href="/">Jaswanth</a></h1>
@@ -37,12 +37,12 @@
         </ul>
         <img src="images/menu.png" class="menu-icon" alt="" />
       </nav>
+      <h2 class="port-list-heading">Project List :</h2>
       <div id="portlist" class="port-list">
-        <h2 class="port-list-heading">Project List :</h2>
         <div
           class="card"
           id="border"
-          style="width: 18rem; border: 3px solid grey; margin-top: 25px"
+          style="width: 18rem; margin: 25px 10px; border: 3px solid grey"
         >
           <img
             src="images/bookrecom.jpg"
@@ -51,16 +51,41 @@
           />
           <div class="card-body" style="color: black">
             <h5 class="card-title">Book recommendation</h5>
-            <p class="card-text">
-              Developed a book recommendation system which uses the
-              collaborative system to recommed the books.
-            </p>
             <a
               href="https://github.com/jaswanth187/book_recommendation"
               class="btn btn-primary"
               target="_blank"
               >Github Repo</a
             >
+            <p class="card-text">
+              Developed a book recommendation system which uses the
+              collaborative system to recommed the books.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card"
+          id="border"
+          style="width: 18rem; margin: 25px 10px; border: 3px solid grey"
+        >
+          <img
+            src="images/trading_bot.jpg"
+            class="card-img-top"
+            alt="this image is not visible due to some reason"
+            style="height: 10.1rem"
+          />
+          <div class="card-body" style="color: black">
+            <h5 class="card-title">Trading Bot</h5>
+            <a
+              href="https://github.com/jaswanth187/book_recommendation"
+              class="btn btn-primary"
+              target="_blank"
+              >Github Repo</a
+            >
+            <p class="card-text">
+              Built a bot to automate the trading using the sentiment analysis
+              by using python and TextBlob module.
+            </p>
           </div>
         </div>
       </div>

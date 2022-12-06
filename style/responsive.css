@@ -87,4 +87,7 @@
     margin-bottom: 50px;
     /* background: red; */
   }
+  .bar {
+    width: 18rem;
+  }
 }
